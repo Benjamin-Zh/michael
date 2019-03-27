@@ -5,7 +5,7 @@ const { TEMPLATE_ROOT_PATH } = require('../../constants/paths');
 
 
 async function git({ projectPath }) {
-  const gitIgnorePath = path.resolve(TEMPLATE_ROOT_PATH, './common/.gitignore');
+  const gitIgnorePath = path.resolve(TEMPLATE_ROOT_PATH, './common/gitignore');
   const execConfig = { cwd: projectPath };
 
   await fsx.copy(gitIgnorePath, path.resolve(projectPath, '.gitignore'));
