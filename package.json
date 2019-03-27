@@ -9,6 +9,9 @@
   "bin": {
     "michael": "bin/michael.js"
   },
+  "files": [
+    "templates/*/**"
+  ],
   "author": "Benjamin-Zh",
   "license": "MIT",
   "dependencies": {
