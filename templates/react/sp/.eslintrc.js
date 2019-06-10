@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@guys/eslint-preset-react',
+    '@guys/eslint-config-react',
   ],
 };

@@ -24,16 +24,16 @@ const DEPS = {
     'react',
     'react-dom',
     '@guys/babel-preset-react',
-    '@guys/eslint-preset-react',
+    '@guys/eslint-config-react',
   ],
   [FRAMEWORKS.VUE]: [
     'vue',
     '@guys/babel-preset-common',
-    '@guys/eslint-preset-common',
+    '@guys/eslint-config-common',
   ],
   [FRAMEWORKS.PLAIN]: [
     '@guys/babel-preset-common',
-    '@guys/eslint-preset-common',
+    '@guys/eslint-config-common',
   ],
 };
 
