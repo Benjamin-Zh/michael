@@ -19,6 +19,7 @@ const DEPS = {
   COMMON: [
     '@guys/william',
     '@babel/runtime',
+    'core-js',
   ],
   [FRAMEWORKS.REACT]: [
     'react',
